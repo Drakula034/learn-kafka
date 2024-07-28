@@ -12,7 +12,7 @@
 # reset offset by shifting the offset
  kafka-consumer-groups.sh \
     --bootstrap-server localhost:9092 \
-    --group cg \
+    --group is \
     --topic hello-world \
     --reset-offsets \
     --shift-by -3 \

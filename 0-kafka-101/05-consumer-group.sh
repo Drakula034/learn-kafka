@@ -20,7 +20,7 @@ kafka-console-consumer.sh \
  # describe a consumer group
  kafka-consumer-groups.sh \
     --bootstrap-server localhost:9092 \
-    --group cg \
+    --group is \
     --describe  
     
      

@@ -16,3 +16,4 @@ kafka-topics.sh --bootstrap-server localhost:9092 --topic order-events --create 
 
 # topic with replicaiton factor
 kafka-topics.sh --bootstrap-server localhost:9092 --topic order-events --create --replication-factor 3
+
